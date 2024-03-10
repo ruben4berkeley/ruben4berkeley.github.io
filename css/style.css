@@ -41,6 +41,10 @@ body, header, footer {
   padding-bottom: 50px;
 }
 
+section {
+    scroll-margin-top: 100px; /* Adjust the value based on your navbar's height */
+  }  
+
 .card {
     padding: 10px 10px;
     border-width: 15px;

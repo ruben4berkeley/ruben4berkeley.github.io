@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
 @import url("https://fonts.googleapis.com/css?family=Source-Sans");
+@import url("vendor/helvetica-now/stylesheet.css");
 
 /* Custom CSS */
 
@@ -15,6 +16,9 @@ body, header, footer {
 /* Campaign blue: #004f84; */
 /* Alt blue: #26419C */
 /* Campaign light blue: #3fa9f5; */
+/* Campaign red: #A81010 */
+/* Campaign dark red: #770a0a */
+/* Campaign light red: #ee1212 */
 
 .icon {
     font-size: 3em;
@@ -60,7 +64,7 @@ section {
 }
 
 .red {
-    color: orangered;
+    color: #A81010;
 }
 
 .green {
@@ -82,7 +86,7 @@ section {
 
 .card-body a:hover {
     text-decoration: underline;
-    color: #3fa9f5;
+    color: #ee1212;
 }
 
 .card-body {
@@ -126,7 +130,7 @@ footer {
 }
 
 .d4 {
-    color: #3fa9f5;
+    color: #ee1212;
 }
 
 .endorsements p {
@@ -193,12 +197,13 @@ a {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: #3fa9f5;
+    color: #A81010;
     text-decoration: underline;
 }
 
 a:focus, a:hover {
     text-decoration: none;
+    color: #ee1212;
 }
 
 /* ============ */
@@ -228,15 +233,23 @@ a:focus, a:hover {
 }
 
 #mainNav a:focus, #mainNav a:hover {
-    color: #004f84;
+    color: #ee1212;
+}
+
+.btn {
+    background-color: #A81010;
+    border-color: #A81010;
+}
+
+.btn:hover {
+    background-color: #ee1212;
+    border-color: #ee1212;
 }
 
 #mainNav .btn-primary {
     font-size: 18px;
     padding: 8px 10px;
     max-width: 100px;
-    background-color: #3fa9f5;
-    border-color: #3fa9f5;
 }
 
 #mainNav .navbar-toggler {
@@ -267,6 +280,11 @@ a:focus, a:hover {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
     outline: none;
     background-color: transparent;
+}
+
+#issues-nav .active{
+    background-color:#A81010;
+    border-color: #A81010;
 }
 
 @media (max-width: 992px) {
@@ -324,10 +342,11 @@ a:focus, a:hover {
     display: table;
     width: 100%;
     height: auto;
+    min-height: 400px;
     padding: 10px 0;
     text-align: center;
     color: white;
-    background: url("../images/Ruben_smile_magnolias_small.jpg") no-repeat bottom center scroll;
+    background: url("../images/Ruben_park_small.jpg") no-repeat bottom center scroll;
     background-color: white;
     background-position: top left;
     -webkit-background-size: cover;
@@ -342,28 +361,27 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-    font-family: "Lato";
+    font-family: "Helvetica Now Display";
     font-weight: 700;
+    transform: scale(1, 1.35);
+    /* Safari and Chrome */
+    -webkit-transform: scale(1, 1.35);
+    /* Firefox */
+    -moz-transform: scale(1, 1.35);
+    /* IE 9+ */
+    -ms-transform: scale(1, 1.35);
+    /* Opera */
+    -o-transform: scale(1, 1.35);
     margin-bottom: 0px;
     font-size: 24px;
-    color: #26419C;
-}
-
-.masthead .intro-body .intro-text {
-    font-size: 22px;
-    font-family: "Lato";
-    color: white;
-    text-shadow: 
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        2px 2px 0 #000;
+    filter: drop-shadow(2px 2px #A81010);
 }
 
 .masthead-box {
-    background-color: white; /* rgba(250, 250, 250, 0.5) */
+    background-color: rgba(250, 250, 250, 0);
     border-radius: 15px;
 }
+
 
 @media (min-width: 768px) {
     .masthead {
@@ -371,9 +389,6 @@ a:focus, a:hover {
         padding: 0;
     }
     .masthead .intro-body .brand-heading {
-        font-size: 32px;
-    }
-    .masthead .intro-body .intro-text {
-        font-size: 36px;
+        font-size: 38px;
     }
 }

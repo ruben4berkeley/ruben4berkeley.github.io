@@ -32,7 +32,7 @@ body, header, footer {
 }
 
 .content-section {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -42,7 +42,7 @@ body, header, footer {
 }
 
 section {
-    scroll-margin-top: 100px; /* Adjust the value based on your navbar's height */
+    scroll-margin-top: 90px; /* Adjust the value based on your navbar's height */
   }  
 
 .card {
@@ -234,7 +234,6 @@ a:focus, a:hover {
 #mainNav .btn-primary {
     font-size: 18px;
     padding: 8px 10px;
-    margin-bottom: 5px;
     max-width: 100px;
     background-color: #3fa9f5;
     border-color: #3fa9f5;
@@ -272,7 +271,7 @@ a:focus, a:hover {
 
 @media (max-width: 992px) {
     body {
-        padding-top: 70px;
+        padding-top: 65px;
     }
     #mainNav .navbar-collapse .navbar-nav {
         /*float: right;
@@ -291,11 +290,11 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
     body {
-        padding-top: 82px;
+        padding-top: 65px;
     }
     #mainNav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
@@ -325,7 +324,7 @@ a:focus, a:hover {
     display: table;
     width: 100%;
     height: auto;
-    padding: 50px 0;
+    padding: 10px 0;
     text-align: center;
     color: white;
     background: url("../images/Ruben_smile_magnolias_small.jpg") no-repeat bottom center scroll;

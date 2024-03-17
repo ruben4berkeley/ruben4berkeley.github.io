@@ -18,6 +18,7 @@ body, header, footer {
 /* Campaign red: #A81010 */
 /* Campaign dark red: #770a0a */
 /* Campaign light red: #ee1212 */
+/* Logo red: #ce1126 */
 /* Campaign green: #006845 */
 
 .icon {
@@ -86,7 +87,7 @@ section {
 
 .card-body a:hover {
     text-decoration: underline;
-    color: #ee1212;
+    color: #ce1126;
 }
 
 .card-body {
@@ -130,7 +131,7 @@ footer {
 }
 
 .d4 {
-    color: #ee1212;
+    color: #ce1126;
 }
 
 .endorsements p {
@@ -202,7 +203,7 @@ a {
 
 a:focus, a:hover {
     text-decoration: none;
-    color: #ee1212;
+    color: #ce1126;
 }
 
 /* ============ */
@@ -228,7 +229,7 @@ a:focus, a:hover {
 }
 
 #mainNav a:focus, #mainNav a:hover {
-    color: #ee1212;
+    color: #ce1126;
 }
 
 .btn {
@@ -237,8 +238,8 @@ a:focus, a:hover {
 }
 
 .btn:hover {
-    background-color: #ee1212;
-    border-color: #ee1212;
+    background-color: #ce1126;
+    border-color: #ce1126;
 }
 
 #mainNav .btn-primary {

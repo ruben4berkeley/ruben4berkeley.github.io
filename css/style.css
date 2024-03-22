@@ -80,13 +80,16 @@ section {
     color: blue;
 }
 
-.card-title {
-    text-decoration: none;
-    color: black;
+.no-underline {
+    text-decoration-line: none;
 }
 
-.card-body a:hover {
-    text-decoration: underline;
+.card-title {
+    color: black;
+    
+}
+
+.card-title:hover {
     color: #ce1126;
 }
 

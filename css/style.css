@@ -235,6 +235,10 @@ a:focus, a:hover {
     color: #ce1126;
 }
 
+.bigbtn {
+    font-size: 0.8em;
+}
+
 .btn {
     background-color: #006845;
     border-color: #006845;
